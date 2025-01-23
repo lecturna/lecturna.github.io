@@ -242,7 +242,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .btn-book {
   position: absolute;
   right: 15px;
-  margin-top: -2px; }
+  margin-top: 0px; }
   @media (max-width: 991.98px) {
     .btn-book {
       right: 60px; } }
@@ -601,7 +601,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 #sticky-wrapper.is-sticky .sticky-nav {
   padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-bottom: 0px; */
+  height: 70px;
   background: white;
   -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
